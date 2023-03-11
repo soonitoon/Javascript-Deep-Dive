@@ -1,7 +1,8 @@
-!function() {
-  console.log("hello");
-}();
+const a = 1;
 
-+function() {
-  console.log("hello");
-}();
+console.log(a);
+
+if (true) {
+  const a = 2;
+  console.log(a);
+}
